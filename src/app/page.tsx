@@ -1,9 +1,13 @@
-import Header from "@/components/Header";
+"use client"
+import Apresentacao from "@/components/Apresentacao";
+import Filterbuttons from "@/components/FilterButtons";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Header />
+    <main className="container">
+      <Apresentacao />
+      <Filterbuttons />  
     </main>
   )
 }
