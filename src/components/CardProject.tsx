@@ -6,7 +6,7 @@ import Tecnologias from './Tecnologias';
 const CardProject = styled.div`
   position: relative;
   background-color: gray;
-  width: 420px;
+  max-width: 420px;
   height: 400px;
   display: flex;
   align-items: center;
