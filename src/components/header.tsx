@@ -1,24 +1,29 @@
 "use client"
 import { styled } from 'styled-components'
 
-export default function Header(){
 
-    const TagHeader = styled.header`
-        width: 100%;
-        height: 80px;
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-        border-bottom: 1px solid gray;
+const TagHeader = styled.header`
+width: 100%;
+height: 80px;
+align-items: center;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+padding: 0rem 5rem;
     `
 
 
 
 
 
+export default function Header(){
+
+
+
+
     return (
-        <TagHeader className='container'>
-            <div className=''>Logo</div>
+        <TagHeader className='container-fluid'>
+            <div className=''><span>Rennan Augusto</span></div>
             <div>
                 <ul className='flex gap-5'>
                     <li className='hover:text-cyan-400'>Inicio</li>
