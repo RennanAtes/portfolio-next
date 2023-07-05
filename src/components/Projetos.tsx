@@ -36,7 +36,7 @@ export default function Projetos(props: ProjetosProps) {
       <div className="p-5">
         <TextMyProjetos>Meus Projetos</TextMyProjetos>
       </div>
-      <div className="p-10">
+      <div className="container">
         <ol>
           <li className="flex flex-row flex-wrap gap-5 justify-center">
             {props.projetos.map((projeto) => (<CardProjects key={projeto.id} 
