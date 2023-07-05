@@ -30,7 +30,7 @@ export default function Tecnologias(props:TecnologiasProps){
 
 
     return(
-        <DivTecnologias >
+        <DivTecnologias className="flex flex-row justify-center flex-wrap" >
             {props.tecnologias.map((tecnologia:any) => (
                 <SpanTecnologias key={tecnologia}>{tecnologia}</SpanTecnologias>                    
             ))}
